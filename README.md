@@ -6,8 +6,8 @@ Build with:
 bundle exec jekyll serve
 ```
 
-GitHub Actions exports `assets/SAPCLogo.svg` from `SAPCLogo.drawio` before the Jekyll build. To regenerate locally:
+GitHub Actions exports `assets/SAPCLogo.png` from `SAPCLogo.drawio` before the Jekyll build. To regenerate locally:
 
 ```sh
-drawio --export --format svg --transparent --theme light --embed-svg-fonts false --output assets/SAPCLogo.svg SAPCLogo.drawio
+drawio --export --format png --transparent --theme light --scale 4 --output assets/SAPCLogo.png SAPCLogo.drawio
 ```

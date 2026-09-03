@@ -27,12 +27,12 @@ permalink: /:categories/:title
 content_type: Sparse Array Programming Consortium
 use_authors: true # Set this to false to disable showing post authors
 
-brand_logo: SAPCLogo.svg
+brand_logo: SAPCLogo.png
 brand_name: Sparse Array Programming Consortium
 header: Sparse Array Programming Consortium
 subheader: Coordinating sparse array programming, interchange, APIs, and benchmarks.
 
-meta_image: SAPCLogo.svg
+meta_image: SAPCLogo.png
 
 # Social Links
 twitter_username:

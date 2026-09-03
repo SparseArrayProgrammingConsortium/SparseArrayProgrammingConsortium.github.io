@@ -52,13 +52,12 @@ jobs:
         run: |
           xvfb-run -a drawio \
             --export \
-            --format svg \
+            --format png \
             --transparent \
             --theme light \
-            --embed-svg-fonts false \
-            --output assets/SAPCLogo.svg \
+            --scale 4 \
+            --output assets/SAPCLogo.png \
             SAPCLogo.drawio
-          ruby -e 'path = "assets/SAPCLogo.svg"; svg = File.read(path); svg.sub!(/\sstyle="background:\s*transparent;\s*background-color:\s*transparent;\s*color-scheme:[^"]*"/, ""); File.write(path, svg)'
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
