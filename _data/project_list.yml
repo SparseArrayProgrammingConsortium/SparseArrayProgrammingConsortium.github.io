@@ -14,11 +14,11 @@ array-api:
   name: Array API Standard
   link: https://data-apis.org/array-api/latest/
   logo: /assets/project-logos/array-api.png
-  description: A common Python array API for interoperable array libraries.
+  description: We are working with the organizers of the Python array API to include sparsity-specific extensions.
   extra: "&nbsp;"
 sparse-array-programming-suite:
   name: Sparse Array Programming Suite
   link: https://sparsearrayprogrammingsuite.github.io
-  logo: /assets/project-logos/sparse-array-programming-suite.svg
+  logo: /assets/project-logos/sparse-array-programming-suite.png
   description: Application benchmarks for sparse array programming systems.
   extra: "&nbsp;"
