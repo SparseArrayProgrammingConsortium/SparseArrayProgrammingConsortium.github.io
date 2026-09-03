@@ -16,7 +16,7 @@
 }
 
 .project-logo-frame {
-  height: 64px;
+  height: 58px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -25,10 +25,9 @@
 
 .project-logo {
   display: block;
-  max-width: 148px;
-  max-height: 56px;
+  max-width: 220px;
+  height: 50px;
   width: auto;
-  height: auto;
   object-fit: contain;
 }
 
