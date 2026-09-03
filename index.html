@@ -8,7 +8,7 @@ title: Home
       <div class="container grid-xl">
         <div class="columns negative-m-s">
           <div class="column col-12 text-center">
-            <h6 class="text-secondary">Our Projects</h6>
+            <h6 id="projects" class="text-secondary">Projects</h6>
           </div>
           {% for project in site.data.project_list %}
           {% capture project_name %}{{ project | first }}{% endcapture %}
@@ -27,16 +27,9 @@ title: Home
           {% endfor %} 
 
           <div class="column col-12 text-center mt-16">
-            <h4>Video Overview</h4>
+            <h4 id="people">People</h4>
+            <p class="text-secondary">The consortium brings together researchers and builders working on sparse array programming systems and standards.</p>
           </div>
-
-            <div class="column col-12 text-center">
-            <div style="display: inline-block; width: 100%; max-width: 800px;">
-              <iframe width="100%" height="450" src="https://www.youtube.com/embed/RK2ccdmZ3FA?si=MqXpx9eA7xdx6WgQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="aspect-ratio: 16 / 9;"></iframe>
-            </div>
-            </div>
-
-          {% include papers.html %}
         </div>
       </div>
     </div>

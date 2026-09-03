@@ -1,15 +1,20 @@
-finch-julia:
-  name: Finch.jl
-  link: https://finch-tensor.github.io/Finch.jl/
-  description: Sparse and Structured Tensor Compiler in Julia
+finch-tensor:
+  name: Finch Tensor
+  link: https://finch-tensor.org
+  description: Sparse and structured tensor programming.
   extra: "&nbsp;"
-finch-tensor-python:
-  name: Finch Python Wrapper
-  link: https://github.com/finch-tensor/finch-tensor-python
-  description: Sparse Tensor Programming in Python powered by Finch.jl
+binsparse:
+  name: Binsparse
+  link: https://binsparse.org
+  description: A binary format for sparse tensor interchange.
   extra: "&nbsp;"
-finch-tensor-lite:
-  name: Finch Lite
-  link: https://github.com/finch-tensor/finch-tensor-lite
-  description: Sparse Tensor Programming in Pure Python
-  extra: In progress
+array-api:
+  name: Array API Standard
+  link: https://data-apis.org/array-api/latest/
+  description: A common Python array API for interoperable array libraries.
+  extra: "&nbsp;"
+sparse-array-programming-suite:
+  name: Sparse Array Programming Suite
+  link: https://sparsearrayprogrammingsuite.github.io
+  description: Application benchmarks for sparse array programming systems.
+  extra: "&nbsp;"

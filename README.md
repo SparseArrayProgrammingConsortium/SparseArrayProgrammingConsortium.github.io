@@ -1,4 +1,4 @@
-# finch-tensor.github.io
+# SparseArrayProgrammingConsortium.github.io
 
 Build with:
 
