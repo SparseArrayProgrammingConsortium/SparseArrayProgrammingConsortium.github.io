@@ -1,0 +1,45 @@
+{% if site.paper_one_title == null %}
+{% else %}
+<div class="column col-12 text-center mt-16">
+  <h4>See Papers</h4>
+</div>
+<div class="column col-12 col-sm-12 p-8 mb-8 col-mx-auto">
+  <h5>{{ site.paper_one_title }}</h5>
+  <p>{{ site.paper_one_content }}</p>
+  <a href="{{ site.paper_one_link }}" target="_blank">Link <i class='uil uil-arrow-right arrow-hover'></i></a>
+  <a href="{{ site.paper_one_download }}" target="_blank">Download <i class='uil uil-arrow-right arrow-hover'></i></a>
+  {% if site.paper_one_talk %}<a href="{{ site.paper_one_talk }}" target="_blank">Talk <i class='uil uil-arrow-right arrow-hover'></i></a>{% endif %}
+</div>
+{% endif %}
+
+{% if site.paper_two_title == null %}
+{% else %}
+<div class="column col-12 col-sm-12 p-8 mb-8 col-mx-auto">
+  <h5>{{ site.paper_two_title }}</h5>
+  <p>{{ site.paper_two_content }}</p>
+  <a href="{{ site.paper_two_link }}" target="_blank">Link <i class='uil uil-arrow-right arrow-hover'></i></a>
+  <a href="{{ site.paper_two_download }}" target="_blank">Download <i class='uil uil-arrow-right arrow-hover'></i></a>
+  {% if site.paper_two_talk %}<a href="{{ site.paper_two_talk }}" target="_blank">Talk <i class='uil uil-arrow-right arrow-hover'></i></a>{% endif %}
+</div>
+{% endif %}
+
+{% if site.paper_three_title == null %}
+{% else %}
+<div class="column col-12 col-sm-12 p-8 mb-8 col-mx-auto">
+  <h5>{{ site.paper_three_title }}</h5>
+  <p>{{ site.paper_three_content }}</p>
+  <a href="{{ site.paper_three_link }}" target="_blank">Link <i class='uil uil-arrow-right arrow-hover'></i></a>
+  <a href="{{ site.paper_three_download }}" target="_blank">Download <i class='uil uil-arrow-right arrow-hover'></i></a>
+  {% if site.paper_three_talk %}<a href="{{ site.paper_three_talk }}" target="_blank">Talk <i class='uil uil-arrow-right arrow-hover'></i></a>{% endif %}
+</div>
+{% endif %}
+
+{% if site.paper_four_title == null %}
+{% else %}
+<div class="column col-12 col-sm-12 p-8 mb-8 col-mx-auto">
+  <h5>{{ site.paper_four_title }}</h5>
+  <p>{{ site.paper_four_content }}</p>
+  <a href="{{ site.paper_four_link }}" target="_blank">Link <i class='uil uil-arrow-right arrow-hover'></i></a>
+  <a href="{{ site.paper_four_download }}" target="_blank">Download <i class='uil uil-arrow-right arrow-hover'></i></a>
+</div>
+{% endif %}

@@ -1,0 +1,42 @@
+---
+layout: default
+title: Home
+---
+
+  {% include header-home.html %}
+    <div class="container-full">
+      <div class="container grid-xl">
+        <div class="columns negative-m-s">
+          <div class="column col-12 text-center">
+            <h6 class="text-secondary">Our Projects</h6>
+          </div>
+          {% for project in site.data.project_list %}
+          {% capture project_name %}{{ project | first }}{% endcapture %}
+          {% assign page_project = site.data.project_list[project_name] %}
+          <div class="column col-4 col-md-6 col-sm-12">
+            <a href="{{ page_project.link }}" target="_blank">
+              <div class="card card-link">
+                <div class="card-body text-center my-4">
+                  <h5 class="text-bold">{{ page_project.name }}</h5>
+                  <p class="m-1">{{ page_project.description }}</p>
+                  <p style="color:Tomato;" class="text-small text-center mb-0 mt-1">{{ page_project.extra }}</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          {% endfor %} 
+
+          <div class="column col-12 text-center mt-16">
+            <h4>Video Overview</h4>
+          </div>
+
+            <div class="column col-12 text-center">
+            <div style="display: inline-block; width: 100%; max-width: 800px;">
+              <iframe width="100%" height="450" src="https://www.youtube.com/embed/RK2ccdmZ3FA?si=MqXpx9eA7xdx6WgQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="aspect-ratio: 16 / 9;"></iframe>
+            </div>
+            </div>
+
+          {% include papers.html %}
+        </div>
+      </div>
+    </div>

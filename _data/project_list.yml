@@ -1,0 +1,15 @@
+finch-julia:
+  name: Finch.jl
+  link: https://finch-tensor.github.io/Finch.jl/
+  description: Sparse and Structured Tensor Compiler in Julia
+  extra: "&nbsp;"
+finch-tensor-python:
+  name: Finch Python Wrapper
+  link: https://github.com/finch-tensor/finch-tensor-python
+  description: Sparse Tensor Programming in Python powered by Finch.jl
+  extra: "&nbsp;"
+finch-tensor-lite:
+  name: Finch Lite
+  link: https://github.com/finch-tensor/finch-tensor-lite
+  description: Sparse Tensor Programming in Pure Python
+  extra: In progress
