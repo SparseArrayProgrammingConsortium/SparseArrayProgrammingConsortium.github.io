@@ -8,23 +8,23 @@ $rtl: false !default;
 
 
 // Box shadows
-$light-shadow: 0 4px 6px rgba(55,65,80,0.04);
-$main-shadow: 0 4px 6px rgba(55,65,80,0.7);
-$hover-shadow: 0px 4px 8px rgba(45, 66, 70, 0.1);
+$light-shadow: 0 4px 6px rgba(33, 56, 52, 0.06);
+$main-shadow: 0 4px 6px rgba(33, 56, 52, 0.45);
+$hover-shadow: 0px 4px 8px rgba(247, 127, 2, 0.16);
 
 // Core colors
-$primary-color: #212529 !default;
-$primary-color-dark: #0f1113!default;
-$secondary-color: #d1d1e9 !default;
-$secondary-color-dark: #b3b3cb !default;
+$primary-color: #173b36 !default;
+$primary-color-dark: #0e2926!default;
+$secondary-color: #c7eafb !default;
+$secondary-color-dark: #6a858d !default;
 $white: #fffffe;
-$highlight-color: #3498db;
+$highlight-color: #f77f02;
 
 // Gray colors
-$dark-color: #2b2c34 !default;
-$gray-color: #d7d8e1 !default;
-$gray-color-light: #f5f6ff !default;
-$gray-color-dark: #9b9caf !default;
+$dark-color: #24302f !default;
+$gray-color: #d5dedb !default;
+$gray-color-light: #f6faf8 !default;
+$gray-color-dark: #71807c !default;
 
 $border-color: $gray-color-light !default;
 $border-color-dark: darken($border-color, 10%) !default;
@@ -35,12 +35,12 @@ $bg-color-dark: darken($bg-color, 3%) !default;
 // Control colors
 $success: #6CBC2B !default;
 $warning: #FFCC00 !default;
-$error: #fa5246 !default;
+$error: #cc6c02 !default;
 
 
 // Other colors
-$code-color: #d73e48 !default;
-$highgray-color-light: #ffe9b3 !default;
+$code-color: #b65f00 !default;
+$highgray-color-light: #ffe0b3 !default;
 $body-bg: $gray-color-light !default;
 $body-font-color: lighten($dark-color, 5%) !default;
 $link-color: $primary-color !default;
