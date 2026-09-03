@@ -1,20 +1,24 @@
 finch-tensor:
   name: Finch Tensor
   link: https://finch-tensor.org
+  favicon: https://finch-tensor.org/assets/icon.png
   description: Sparse and structured tensor programming.
   extra: "&nbsp;"
 binsparse:
   name: Binsparse
   link: https://binsparse.org
+  favicon: https://binsparse.org/favicon.ico
   description: A binary format for sparse tensor interchange.
   extra: "&nbsp;"
 array-api:
   name: Array API Standard
   link: https://data-apis.org/array-api/latest/
+  favicon: https://data-apis.org/array-api/latest/_static/favicon.ico
   description: A common Python array API for interoperable array libraries.
   extra: "&nbsp;"
 sparse-array-programming-suite:
   name: Sparse Array Programming Suite
   link: https://sparsearrayprogrammingsuite.github.io
+  favicon: https://sparsearrayprogrammingsuite.github.io/favicon.ico
   description: Application benchmarks for sparse array programming systems.
   extra: "&nbsp;"
