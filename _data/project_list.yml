@@ -2,31 +2,23 @@ finch-tensor:
   name: Finch Tensor
   link: https://finch-tensor.org
   logo: /assets/project-logos/finch-tensor.png
-  logo_width: 50
-  logo_height: 50
   description: Sparse and structured tensor programming.
   extra: "&nbsp;"
 binsparse:
   name: Binsparse
   link: https://binsparse.org
   logo: /assets/project-logos/binsparse.svg
-  logo_width: 97
-  logo_height: 50
   description: A binary format for sparse tensor interchange.
   extra: "&nbsp;"
 array-api:
   name: Array API Standard
   link: https://data-apis.org/array-api/latest/
   logo: /assets/project-logos/array-api.png
-  logo_width: 197
-  logo_height: 50
   description: A common Python array API for interoperable array libraries.
   extra: "&nbsp;"
 sparse-array-programming-suite:
   name: Sparse Array Programming Suite
   link: https://sparsearrayprogrammingsuite.github.io
   logo: /assets/project-logos/sparse-array-programming-suite.svg
-  logo_width: 167
-  logo_height: 50
   description: Application benchmarks for sparse array programming systems.
   extra: "&nbsp;"
